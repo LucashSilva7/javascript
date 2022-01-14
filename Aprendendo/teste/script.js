@@ -1,0 +1,1 @@
+alert('literalmente testando se funciona de maneira externa, afinal quero aprender js');
