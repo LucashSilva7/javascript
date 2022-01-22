@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let admin = prompt('What name?', '');
+        if (admin === 'admin')
+        {
+            let password = prompt('Qual a senha?', ' ');
+            if (password === 'themaster')
+            {
+                alert('Welcome!')
+            }
+            else if (password != 'themaster'&& password != null)
+            {
+                alert('Senha errada!')
+            }
+            else if (password === null)
+            {
+                alert('Cancelado!')
+            }
+        }
+        else if (admin != 'admin' && admin != null)
+        {
+            alert('Usuário desconhecido!')
+        }
+        else if (admin === null)
+        {
+            alert('Cancelado!')
+        }
+    </script>
+</body>
+</html>
